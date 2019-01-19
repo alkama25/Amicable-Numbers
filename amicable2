@@ -1,0 +1,14 @@
+After the elimination of prime number we will find the sum of divisors of all the remaining numbers.
+
+Logic to find the sum of divisor
+int sumofdiv(int n){
+int sum=0;
+for(int i=1;i<=n;i++)
+{
+if(n%i==0)
+{
+sum+=i;
+}
+}
+return sum;
+}
