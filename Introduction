@@ -1,8 +1,9 @@
 # Amicable-Numbers
 To solve this problem, and to find the amicable pairs under 10000, algorithmic approach is used.
 Step by step solution to solve the problem-
-1. Initially, we will find the prime numbers under 10000, and eliminate that in order to reduce the complexity.
-2. After that from the remaining numbers, we will the sum of divisors of the remaining numbers.
-3. Then in the next step, specify the condition for the amicable pair and then find out the amicable pair of numbers.
-4. After finding the amicable pairs, evaluate the sum of all.
-5. Step by step solution is done along with the code snippet.
+1.Initially,find all the prime numbers under 10000, and eliminate them from the series in order to reduce the complexity.
+2 Find the divisors of all the remaining numbers. 
+3.Then, calculate the sum of divisors of all the numbers.
+4.Then specify the condition for the amicable pair to find out such pairs.
+5.After finding the amicable pairs, calculate thier sum.
+6.Step by step solution is done along with the code snippet.
