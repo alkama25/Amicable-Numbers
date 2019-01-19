@@ -1,1 +1,23 @@
-Alkama Rtc
+According to problem 1, amicable number are the numbers sum of whose divisors are equal. 
+We have to find out amicable pair under 10000.
+For this, initially we will eliminate prime numbers because prime numbers cannot form amicable pairs. 
+So we will find all the prime numbers under 10000 and eliminate them from the list.
+
+C program to find all the prime numbers between 1 to 10000-
+int main()
+{
+    int n,i,fact,j;
+    printf("Enter the Number");
+    scanf("%d",&n);
+    printf("Prime Numbers are: \n");
+    for(i=1; i<=n; i++)
+    {
+        fact=0;
+        for(j=1; j<=n; j++)
+        {
+            if(i%j==0)
+                fact++;
+        }
+        if(fact==2)
+            printf("%d " ,i);
+    }
